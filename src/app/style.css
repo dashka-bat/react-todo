@@ -1,0 +1,22 @@
+.background{
+    background-color: blueviolet;height: 1000px;
+
+}
+.task-list{
+    color:paleturquoise;
+    margin: auto 600px;font-size: 2rem;
+
+}
+.input-text{
+    color:black;height: 40px;
+    margin: auto 600px;
+}
+.add-button{
+    border: 2px solid paleturquoise;background-color: azure;color: black;font-size: 2rem;margin-left: 600px;
+}
+.deleteall-button{
+    border: 2px solid paleturquoise;background-color: azure;color: black;font-size: 2rem;margin-left: 20px; ;
+}
+.onetask{
+    background-color: white;width: 400px;height: 40px;
+}
