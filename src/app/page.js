@@ -1,8 +1,8 @@
 import "./style.css";
-function addtask() {
-  const name = input - text.value;
-  task.push({ name: name, status: "todo" });
-}
+// function addtask() {
+//   const name = input - text.value;
+//   task.push({ name: name, status: "todo" });
+// }
 let task = [];
 function Render() {
   let output = document.getElementById("onetask");
@@ -13,7 +13,7 @@ function Render() {
       task[i].name +
       `</div>`;
   }
-  Render();
+
   return (
     <div className="background">
       <h1 className="task-list">TASK LIST</h1>
