@@ -12,6 +12,7 @@ export default function Home() {
   };
   const closemodal=() =>{
     setopen(false)
+    
   };
   
   return (
@@ -19,23 +20,26 @@ export default function Home() {
    <div>
     <div className="body">
       <div>
-<button onClick={addmodal}>+++++++</button>
+<button className="add-button" onClick={addmodal}>+</button>
 {Open && (
-<div>
+<div >
 <div style={{
+  marginTop:20,
   height:500,
   width:800,
   backgroundColor:"pink",
   margin:"auto",
-  padding:48,color:"black"
+  padding:0,color:"black"
 }}>
-<button onClick={closemodal}>XXXXXXXX
+<button className="close-button" onClick={closemodal}>X
 </button>
 <input style={{border:"2px solid black",
                 width: 256,
                 height: 56,
+                marginLeft:"12vw",
+               
                 border: "1px solid black",
-                padding: 4,
+                
                 color:"black"}} type="task">
                   
 
@@ -44,7 +48,7 @@ export default function Home() {
 </input>
 
 
-
+<button style={{display:"flex"}}>submit</button>
 
 </div>
 
@@ -67,8 +71,7 @@ export default function Home() {
 
 
 
-<footer>
-hi
+<footer>{Open}
 </footer>
 
     </div>
