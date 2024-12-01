@@ -1,8 +1,8 @@
+
 "use client";
 import { useState } from "react";
 
 import "./style.css"
-
 
 
 export default function Home() {
@@ -15,6 +15,7 @@ export default function Home() {
   };
   
   return (
+
    <div>
     <div className="body">
       <div>
@@ -73,5 +74,6 @@ hi
     </div>
 
    </div>
+   
   );
 }
